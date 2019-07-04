@@ -13,6 +13,7 @@ __apt_packages:
   - autoconf
   - automake
   - libtool
+  - libtool-bin
   - make
   - bzip2
   - libncurses5-dev
@@ -32,9 +33,11 @@ __apt_packages:
   - intltool
   - libacl1-dev
   - libcap-dev
+  - bc
   #
   # suggested packages
   - graphicsmagick
+  - graphicsmagick-imagemagick-compat
   - patchutils
   - coreutils
   - ecj
