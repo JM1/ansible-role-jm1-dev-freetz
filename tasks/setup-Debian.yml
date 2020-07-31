@@ -1,9 +1,8 @@
 ---
-- include_role:
-    name: jm1.virtual_pkg
-  vars:
-    package_name: "jm1-dev-freetz"
-    package_depends:
+- jm1.pkg.meta_pkg:
+    name: "jm1-dev-freetz"
+    version: "1"
+    depends:
     # FREETZ
     # References:
     #   http://freetz.org/wiki/help/howtos/common/install#NotwendigePakete
