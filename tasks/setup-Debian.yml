@@ -37,6 +37,7 @@
     - libacl1-dev
     - libcap-dev
     - bc
+    - libreadline-dev
     #
     # suggested packages
     - graphicsmagick
